@@ -228,6 +228,7 @@ https://bisq.io https://bisq.network 301
 /dao-reimbursement https://github.com/bisq-network/support/issues 302
 /issues https://github.com/bisq-network/bisq/issues 302
 
+# downloads Bisq 1
 /downloads/archive/:version.zip https://github.com/bisq-network/bisq/archive/:version.zip 302
 /downloads/archive/:version.tar.gz https://github.com/bisq-network/bisq/archive/:version.tar.gz 302
 
@@ -236,6 +237,13 @@ https://bisq.io https://bisq.network 301
 
 /source https://github.com/bisq-network 302
 /source/* https://github.com/bisq-network/:splat 302
+
+# downloads Bisq 2
+/download2/archive/:version.zip https://github.com/bisq-network/bisq2/archive/:version.zip 302
+/download2/archive/:version.tar.gz https://github.com/bisq-network/bisq2/archive/:version.tar.gz 302
+
+/download2/:version https://github.com/bisq-network/bisq2/releases/tag/:version 302
+/download2/:version/:filename https://github.com/bisq-network/bisq2/releases/download/:version/:filename 302
 
 /faq https://bisq.wiki/Frequently_asked_questions 301
 /markets https://bisq.markets 301
